@@ -4,14 +4,14 @@ import { Products } from "../../src/components/ui/products";
 import { LoadPosts } from "../../src/lib/LoadPosts";
 
 const ProductsPage = ({ allProducts }) => {
-    console.log(allProducts)
+    console.log(allProducts);
+    const data=allProducts;
   return (
     <DashboardLayout>
-      {/* <Products data={data} /> */}
+      <Products data={data} />
     </DashboardLayout>
   );
 };
-export default ProductsPage;
 export async function getStaticProps() {
   const allProducts = await LoadPosts("https://dummyjson.com/products");
   return {
@@ -20,5 +20,4 @@ export async function getStaticProps() {
     },
   };
 }
-
-
+export default ProductsPage;
