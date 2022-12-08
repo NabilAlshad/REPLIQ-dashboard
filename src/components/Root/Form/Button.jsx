@@ -1,11 +1,11 @@
 import React from 'react'
 import { Orders } from './../../ui/orders/index';
 
-export const Button = ({title,buttonClass,children}) => {
+export const Button = ({title,buttonClass}) => {
 
-const child=children;
+
   return (
-    <button className={buttonClass}>{title}  <span>{child}</span></button>
+    <button className={buttonClass}>{title}</button>
   )
 }
 

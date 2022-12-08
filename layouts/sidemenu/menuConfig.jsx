@@ -5,7 +5,7 @@ export const menuList=[
     {
         title:"Dashboard",
         icon: <RxDashboard/>,
-        route:"/"
+        route:"/dashboard"
      },
     {
        title:"Customers",

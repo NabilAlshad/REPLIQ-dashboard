@@ -1,11 +1,13 @@
 import React from 'react'
+import { Payments } from '../../src/components/ui/payments';
 import { DashboardLayout } from './../../layouts/DashboardLayout';
 
-const Payments = () => {
+const PaymentsPage = () => {
   return (
-    <DashboardLayout>    
+    <DashboardLayout>   
+      <Payments/> 
     </DashboardLayout>
   )
 }
 
-export default Payments;
+export default PaymentsPage;
