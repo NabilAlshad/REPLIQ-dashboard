@@ -6,7 +6,7 @@ import Image from "next/image";
 export const SideMenu = () => {
   return (
     <>
-      <Link href="/dashboard">
+      <Link href="/">
         <Image
           width="80"
           className="mx-auto"
