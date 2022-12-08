@@ -20,7 +20,7 @@ export const Card = ({ image, title, price, rating, category }) => {
         <p className="text-lg text-white rounded-lg p-2  bg-gray-800 text-center w-[19rem]">Price:{price}$ </p>
         <p className="text-lg w-[19rem] text-center rounded-lg p-1.5 text-gray-800 bg-yellow-400 ">Rating: {rating.rate}*</p>
         </div>
-        <p className="text-md w-[19rem] bg-orange-400 text-slate-100 p-3 text-center" >Total{rating.count}</p>
+        <p className="text-md w-[19rem] bg-orange-400 text-slate-100 p-3 text-center" >Total:({rating.count})</p>
         
       </div>
     </div>
