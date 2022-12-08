@@ -25,18 +25,17 @@ export const Products = ({ data }) => {
         </div>
 
         <div className="flex flex-wrap w-full gap-5">
-
-          {
-            products.map((product) => 
-            <Card image={product.image} title={product.title} 
-            category={product.category} price={product.price}
-             rating={product.rating} stock={product.stock} key={product.id}  
-             >
-            </Card>
-            )
-          }
-
-
+          {products.map((product) => (
+            <Card
+              image={product.image}
+              title={product.title}
+              category={product.category}
+              price={product.price}
+              rating={product.rating}
+              stock={product.stock}
+              key={product.id}
+            ></Card>
+          ))}
         </div>
       </div>
     </>

@@ -9,11 +9,10 @@ export const Overview = () => {
         <p className="font-bold font-sans text-gray-800">Last Week </p>
       </div>
       <div className="flex flex-row flex-wrap justify-evenly gap-10 mx-auto w-[50%]">
-      {OverviewData.map((o) => (
-        <OverviewCard key={o.value} value={o.value} type={o.type} />
-      ))}
+        {OverviewData.map((o) => (
+          <OverviewCard key={o.value} value={o.value} type={o.type} />
+        ))}
       </div>
-       
     </div>
   );
 };

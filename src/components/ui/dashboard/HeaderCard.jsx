@@ -21,7 +21,6 @@ export const HeaderCard = () => {
             title="share"
             buttonClass="bg-green-400 text-white p-2 rounded-lg w-[100px]"
           />
-          
         </span>
       </div>
     </div>
