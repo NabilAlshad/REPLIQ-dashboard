@@ -18,7 +18,7 @@ export const Customers = () => {
         inputClass="w-[20%] mb-5 bg-gray-300 me-10 border border-rounded-gray-200 text-gray-800 text-sm rounded-lg focus:w-[40%] focus:ring-blue-500 focus:border-rounded-blue-500 p-2"
         placeholder="search customers...."
       ></Input>
-   <Button title="search" buttonClass="text-white bg-green-400 rounded-lg w-[100px] p-2"/>
+      <Button title="search" buttonClass="text-white bg-green-400 rounded-lg w-[100px] p-2"/>
       </div>
       
       <Table data={CustomersData}></Table>

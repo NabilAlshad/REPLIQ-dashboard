@@ -16,7 +16,7 @@ export const OrderCard = ({ orderId, image, created_at, orders, status }) => {
             height={60}
           />
           <p className="w-[40%] mr-2 font-mono font-semibold">
-            Total orders: {orders}
+            Total orders: ({orders})
           </p>
         </div>
         <p

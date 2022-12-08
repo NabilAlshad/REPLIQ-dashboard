@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-key */
 import React from "react";
 export const Table = ({ data }) => {
-  console.log(data);
+
   return (
     <table class="table-auto w-full text-sm text-left text-black-700 dark:text-gray-700 p-2">
       <thead>
