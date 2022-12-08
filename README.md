@@ -1,34 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# REPLIQ dashboard
 
-First, run the development server:
+## Technology Used
+
+1.Next js.
+2.Tailwind CSS
+
+## Features 
+
+1. User Can manage and see the overall statistics of an company.
+2. User can see and manage the customers, orders and payments.
+
+
+
+## Installation
+
+Clone locally 
 
 ```bash
-npm run dev
-# or
-yarn dev
+  git clone https://github.com/NabilAlshad/REPLIQ-dashboard.git
+  cd REPLIQ-dashboard
 ```
+##  Install the necessary dependencies
+```bash
+  npm install || yarn install
+```
+## Run The project
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+ ```bash
+ npm run dev ||yarn dev
+ ```
+## Deployment
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+To deploy this project 
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+1. You  must have an account in vercel
+2. install vercel by comman 
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```bash
+  npm i -g vercel
+```
+3. Follow the procedure and vercel will ask about you to login into the github account
+4. Then follow the procedure without overriding settings
 
-## Learn More
+# build 
+```bash
+  npm run build 
 
-To learn more about Next.js, take a look at the following resources:
+## Demo
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+https://repliq-dashboard.vercel.app/
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
