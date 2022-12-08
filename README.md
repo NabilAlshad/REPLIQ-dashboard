@@ -46,10 +46,9 @@ To deploy this project
 # build 
 ```bash
   npm run build 
-
+```
 ## Demo
 
 https://repliq-dashboard.vercel.app/
 
-##
 ​
