@@ -4,7 +4,7 @@ import { Products } from "../../src/components/ui/products";
 import { LoadPosts } from "../../src/lib/LoadPosts";
 
 const ProductsPage = ({ allProducts }) => {
-    console.log(allProducts);
+
     const data=allProducts;
   return (
     <DashboardLayout>
@@ -13,7 +13,8 @@ const ProductsPage = ({ allProducts }) => {
   );
 };
 export async function getStaticProps() {
-  const allProducts = await LoadPosts("https://dummyjson.com/products");
+  const allProducts = await LoadPosts("https://fakestoreapi.com/products/");
+  
   return {
     props: {
       allProducts,

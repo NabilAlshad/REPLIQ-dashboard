@@ -1,0 +1,13 @@
+.imgContainer{
+    width: 200px;
+}
+.imgContainer>div{
+    position: unset !important;
+}
+.img{
+    object-fit: contain;
+    width:200px !important;
+    margin:10px auto !important;
+    position: relative !important;
+    height: 150px!important;
+}
